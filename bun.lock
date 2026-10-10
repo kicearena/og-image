@@ -5,8 +5,8 @@
     "": {
       "name": "@kicearena/og-image",
       "dependencies": {
-        "@kicearena/assets": "0.1.0",
-        "@kicearena/mondrian": "0.1.2",
+        "@kicearena/assets": "0.1.1",
+        "@kicearena/mondrian": "0.1.3",
         "sharp": "0.35.2",
       },
       "devDependencies": {
@@ -76,9 +76,9 @@
 
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.6.0", "", {}, "sha512-T7jf+5zgsZHwNJ4lvQ7/aezbyk0nNX+zJVWpmHA7VYsEx7a7qr5Rg5IbtJFqkgze5Y2sruq1RUY8Q837Od7iFw=="],
 
-    "@kicearena/assets": ["@kicearena/assets@0.1.0", "https://npm.pkg.github.com/download/@kicearena/assets/0.1.0/da58f82396ffb43c3a8614eaa50e174c319d0ecb", { "peerDependencies": { "vite": "^7.3.5" } }, "sha512-RajQ+ANQOlaXo1rQpZPoPIq9uanm2J1qAFjFKG9HmTs6cCLajqUS+C8krfFWJg6uhQxAsOmh+eCsYYC2PlLgsQ=="],
+    "@kicearena/assets": ["@kicearena/assets@0.1.1", "https://npm.pkg.github.com/download/@kicearena/assets/0.1.1/983dca3738078f475bb5218efbfdabf4be959208", { "peerDependencies": { "vite": "^7.3.5" } }, "sha512-h++ayhxZcBaTym2HnnTzIMCUsYnuc2w8FeZoiZZM/QY1EdEQ6DozgY2aWM5esH9zE6k2fwJnJQDc4bFx5fZ9lw=="],
 
-    "@kicearena/mondrian": ["@kicearena/mondrian@0.1.2", "https://npm.pkg.github.com/download/@kicearena/mondrian/0.1.2/b2c6c30ba3b7edaae077e2e62d5a4d58592ad0f5", {}, "sha512-jdltXy4+nwnCsQChxBPygQElNNFsRx2SQLtb6yW77gRpvAGpy0bn++fzy/T3MgDZ8+57/rDRVVp3n8GLUHmxfg=="],
+    "@kicearena/mondrian": ["@kicearena/mondrian@0.1.3", "https://npm.pkg.github.com/download/@kicearena/mondrian/0.1.3/2426889e2fed1af8dcc73bbb434a0157ddbdfc67", {}, "sha512-la7CVMteyD0jbwOjCtSoAJFMYuCGrQmnQFI8CR7nYEU8240HCCl9o7OmTMqh5gW0chncIVKf4F1uGW5uNTljFA=="],
 
     "@oxc-project/types": ["@oxc-project/types@0.153.0", "", {}, "sha512-jSNrRIyvPVLL5E1z/tS5zLAprosGz/FuI1PWwEOz59j3E4TTTzSpqKb/RDGqJhhW0QHYISGXxq582wGx6T11Tw=="],
 

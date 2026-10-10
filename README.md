@@ -2,7 +2,7 @@
 
 Deterministic **1200 × 630 PNG** share cards for site, problem and competition previews.
 
-[MIT](LICENSE) · Node / Bun · ESM + TypeScript
+[MIT](LICENSE) · Node / Bun · ESM + TypeScript · [![npm version](https://img.shields.io/npm/v/%40kicearena%2Fog-image)](https://www.npmjs.com/package/@kicearena/og-image)
 
 ![Problem card](docs/images/problem.png)
 ![Competition card](docs/images/upcoming.png)
@@ -14,17 +14,14 @@ Deterministic **1200 × 630 PNG** share cards for site, problem and competition 
 - Coalesces identical concurrent renders and bounds the cache to 128 PNGs and four active requests.
 - Resolves resources from the installed package, with no application checkout, browser, network assets or database.
 
-## Install and render
+## Install
 
-Set GitHub Packages scope registry and a read:packages token in `NODE_AUTH_TOKEN`:
-
-```ini
-@kicearena:registry=https://npm.pkg.github.com
-//npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
-```
+Install directly from the public npm registry:
 
 ```sh
-bun add --exact @kicearena/og-image@0.1.0
+npm install --save-exact @kicearena/og-image@0.1.1
+# or
+bun add --exact @kicearena/og-image@0.1.1
 ```
 
 ```ts
