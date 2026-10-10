@@ -1,0 +1,47 @@
+{
+  "name": "@kicearena/og-image",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Deterministic PNG share-card rendering and bounded coalescing cache.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kicearena/og-image.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "resources",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_LICENSES.md",
+    "docs"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "check": "tsc --noEmit -p tsconfig.json && prettier --check .",
+    "preview": "bun scripts/render-preview.ts"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "4.1.11",
+    "@types/node": "25.9.1",
+    "prettier": "3.8.4"
+  },
+  "dependencies": {
+    "@kicearena/assets": "0.1.0",
+    "@kicearena/mondrian": "0.1.2",
+    "sharp": "0.35.2"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/kicearena/og-image#readme"
+}
